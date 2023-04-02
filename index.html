@@ -45,6 +45,11 @@
         padding: 1em;
       }
 
+      header nav {
+        display: flex;
+        align-items: center;
+      }
+
       main {
         padding: 0 1em;
       }
@@ -53,10 +58,12 @@
         list-style: none;
         margin: 0;
         padding: 0;
+        display: flex;
+        flex-wrap: wrap;
       }
 
       .cards li {
-        border: 5px solid #000;
+        border: 3px solid #000;
         margin-bottom: 1em;
       }
 
@@ -81,60 +88,65 @@
   </head>
 
   <body>
-    <header>
-            <div class="title">My Website</div> 
-            <nav>
-                <ul>
-                <li>
-                    <a href="">Link 1</a>
-                </li>
-                <li>
-                    <a href="">Link 2</a>
-                </li>
-                <li>
-                        <a href="">Link 3</a>
-                </li>
-                </ul>
-            </nav>
-        
+    <header style="display: flex; justify-content: space-between; height: 135px;">
+      <div style="display: flex; justify-content: center; align-items: center;"> <div class="title" style="
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;">My Website</div> </div>
+            
+            <div  class="navnav">
+              <nav>
+                  <ul>
+                  <li>
+                      <a href="">Link 1</a>
+                  </li>
+                  <li>
+                      <a href="">Link 2</a>
+                  </li>
+                  <li>
+                          <a href="">Link 3</a>
+                  </li>
+                  </ul>
+              </nav>
+            </div>
     </header>
 
-    <main>
+    <main style="display: flex;">
       <article>
         <h1>This is the main heading</h1>
         <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
 
         <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
 
-        <ul class="cards">
-          <li>
+        <ul class="cards" style="display: flex; gap: 20px;">
+          <li style="  width: 310px; height: 265px;">
             <h2>Card One</h2>
             <div class="inner">
-              <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado.</p>
+              <p style="margin-top: 0px;">Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado.</p>
             </div>
           </li>
-          <li>
+          <li style="  width: 310px; height: 265px;">
             <h2>Card Two</h2>
             <div class="inner">
-              <p>Daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko.</p>
+              <p style="margin-top: 0px;">Daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko.</p>
             </div>
           </li>
-          <li>
+          <li style="  width: 310px; height: 265px;">
             <h2>Card Three</h2>
             <div class="inner">
-              <p>Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.</p>
+              <p style="margin-top: 0px;">Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.</p>
             </div>
           </li>
-          <li>
+          <li style="  width: 310px; height: 265px;">
             <h2>Card Four</h2>
             <div class="inner">
-              <p>Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.</p>
+              <p style="margin-top: 0px;">Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.</p>
             </div>
           </li>
-          <li>
+          <li style="  width: 310px; height: 265px;">
             <h2>Card Five</h2>
             <div class="inner">
-              <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
+              <p style="margin-top: 0px;">Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
             </div>
           </li>
 
