@@ -64,3 +64,10 @@ body {
   margin-top: 20px;
 }
 
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
